@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hussien Ali</title>
+  </head>
+  <body>
+    <div class="container">
+      <video class="video-loop" autoplay loop muted>
+        <source src="./images/video-loop.mp4" type="video/mp4" />
+      </video>
+      <header class="header">
+        <label class="burger-menu" for="menu"><div class="burger-menu__bar"></div>
+        <div class="burger-menu__bar"></div>
+        <div class="burger-menu__bar"></div></label>
+        <input type="checkbox" id="menu" class="burger-menu__checkbox">
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a class="navigation__link navigation__bio" href="#bio">Bio</a>
+            </li>
+            <li>
+              <a class="navigation__link navigation__skills" href="#skills">Skills</a>
+            </li>
+            <li>
+              <a class="navigation__link navigation__media" href="#media">Media</a>
+            </li>
+            <li>
+              <a class="navigation__link navigation__projects" href="#projects">Projects</a>
+            </li>
+            <li>
+              <a class="navigation__link navigation__clients" href="#clients">My Clients</a>
+            </li>
+            <li>
+              <a class="navigation__link navigation__contact" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">switch theme</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There, I'm A Ambitious Software Engineer
+          </h1>
+          <p class="bio__objective">
+            My name is <span class="bio__name">Hussien Abdel_Maksoud </span
+            ><a
+              href="https://www.facebook.com/hussien3bdelmaksoud?mibextid=ZbWKwL"
+              class="bio__facebook"
+              >Facebook</a
+            >
+            <a
+              href="https://www.linkedin.com/in/hussein-abdel-maksoud"
+              class="bio__linkedin"
+              >LinkedIn</a
+            >
+          </p>
+          <a href="#contact" class="bio__link say-hi-link">Say Hi</a>
+          <a href="#" class="bio__link find-out-link"
+            >Download CV <span class="bio__arrow">↓</span></a
+          >
+        </div>
+        <div class="bio__pic-content">
+          <img
+            class="bio__pic"
+            src="./images/Screenshot (281).png"
+            alt="image of hussien ali"
+          />
+        </div>
+      </section>
+      <section id="skills" class="skills section section-with-background">
+        <h2 class="h2-heading">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__column">
+            <h2 class="skills__title">Python</h2>
+            <span class="skills__level">Intermediate</span>
+          </li>
+          <li class="skills__column">
+            <h2 class="skills__title">C</h2>
+            <span class="skills__level">Intermediate</span>
+          </li>
+          <li class="skills__column">
+            <h2 class="skills__title">C++</h2>
+            <span class="skills__level">Intermediate</span>
+          </li>
+          <li class="skills__column">
+            <h2 class="skills__title">Embedded C</h2>
+            <span class="skills__level">Advanced</span>
+          </li>
+          <li class="skills__column">
+            <h2 class="skills__title">Avr Interfacing</h2>
+            <span class="skills__level">Advanced</span>
+          </li>
+          <li class="skills__column">
+            <h2 class="skills__title">HTML&CSS</h2>
+            <span class="skills__level">Intermediate</span>
+          </li>
+        </ul>
+      </section>
+      <!--<section id="media" class="media section">
+        <video
+          class="media__videa"
+          src="./images/"
+          poster="./images/"
+          controls
+        ></video>
+      </section>-->
+      <section id="projects" class="projects section section-with-background">
+        <h2 class="h2-heading">
+          MY FEATURED <br />
+          PROJECTS
+        </h2>
+        <div class="projects__main">
+          <img src="./images/" alt="project1" />
+          <div class="projecets__data">
+            <h3 class="h3-heading">project1</h3>
+            <p class="projects__description">not complete</p>
+            <a href="https://github.com/hussien3bdelmaksoud" class="projects__link" target="_blank">Github link</a>
+          </div>
+          <img class="projects__img" src="./images/" alt="project2" />
+          <div class="projecets__data">
+            <h3 class="h3-heading">project2</h3>
+            <p class="projects__description">not complete</p>
+            <a href="https://github.com/hussien3bdelmaksoud" class="projects__link" target="_blank">Github link</a>
+        </div>
+      </section>
+      <section id="clients" class="clients section"><h2 class="h2-heading">What My <br> Clients Says</h2>
+        <div class="clients__opinions"><div class="clients__wraper"><p class="client__opinions">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius laudantium perferendis odio blanditiis repudiandae harum officia earum numquam aut? Recusandae molestiae, tenetur placeat sed quo culpa tempora labore nisi nostrum?</p>
+        <p class="client__opinions">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti incidunt ab sunt autem quae fugiat, quasi dolore et a ipsum sit quia qui hic cupiditate quam optio fugit nam quisquam?</p>
+        <p class="client__opinions">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sunt enim maxime consequuntur veniam provident beatae explicabo, nobis inventore soluta dolor libero cupiditate minima ducimus a omnis officia officiis? Perspiciatis!</p></div></div>
+      </section>
+      <section id="contact" class="section contact">
+        <div>
+          <p class="contact__description">
+            Feel free to reach out to me any time. I prefer to talk over email, especially since we may be a few time
+            zones away.
+          </p>
+
+          <a href="mailto: hussien3bdelmaksoud@gmail.com" class="contact__email"> hussien3bdelmaksoud@gmail.com</a>
+
+          <div class="contact__socials">
+            <a class="contact__social" href="https://www.facebook.com/hussien3bdelmaksoud?mibextid=ZbWKwL">
+              <img src="./images/brand/facebook.svg" alt="facebook" />
+            </a>
+            <a class="contact__social" href="https://github.com/hussien3bdelmaksoud">
+              <img src="./images/brand/github.svg" alt="github" />
+            </a>
+            <a class="contact__social" href="https://www.instagram.com/hussien.ali.90813236?igsh=MXIwcjVsa3R4ajk2dw==">
+              <img src="./images/brand/instagram.svg" alt="instagram.svg" />
+            </a>
+            <a class="contact__social" href="https://www.linkedin.com/in/hussein-abdel-maksoud">
+              <img src="./images/brand/LinkedIn.svg" alt="LinkedIn.svg" />
+            </a>
+          </div>
+        </div>
+
+        <div class="contact__formContent">
+          <h2 class="h2-heading">
+            Let’s Work <br />
+            Together!
+          </h2>
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input type="text" class="contact__input" name="name" placeholder="Full Name" required />
+              <!-- <input type="email" class="contact__input" placeholder="Email" required /> -->
+              <input
+                type="tel"
+                class="contact__input"
+                placeholder="Phone No."
+                name="tel"
+                required
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+              />
+            </div>
+            <textarea
+              class="contact__input contact__textarea"
+              name="message"
+              placeholder="Your Message"
+              rows="1"
+              required
+            ></textarea>
+            <input type="submit" class="contact__button" value="Send Message" />
+          </form>
+        </div>
+      </section>
+      <footer class="footer">© 2024 By Hussien Ali</footer>
+    </div>
+  </body>
+</html>
